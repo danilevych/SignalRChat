@@ -1,0 +1,13 @@
+﻿@code {
+    private string message = "Hello from Blazor!";
+}
+
+<h3>@message</h3>
+<button @onclick="ChangeMessage">Click me</button>
+
+@code {
+    private void ChangeMessage()
+    {
+        message = "You clicked the button!";
+    }
+}

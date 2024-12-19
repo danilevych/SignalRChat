@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "aKXG28IBy3jKGGiAVQKNFqxvkFixxnHnsQgh0YzGCQs=",
+  "Source": "SignalRChat",
+  "BasePath": "_content/SignalRChat",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SignalRChat\\wwwroot",
+      "Source": "SignalRChat",
+      "ContentRoot": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\",
+      "BasePath": "_content/SignalRChat",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\js\\chat.js",
+      "SourceId": "SignalRChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\",
+      "BasePath": "_content/SignalRChat",
+      "RelativePath": "js/chat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chat.js"
+    },
+    {
+      "Identity": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "SourceId": "SignalRChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\",
+      "BasePath": "_content/SignalRChat",
+      "RelativePath": "js/signalr/dist/browser/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Identity": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "SourceId": "SignalRChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\",
+      "BasePath": "_content/SignalRChat",
+      "RelativePath": "js/signalr/dist/browser/signalr.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js"
+    }
+  ]
+}
