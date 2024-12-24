@@ -36,10 +36,19 @@ connection.start().then(function () {
 });
 
 document.getElementById("sendButton").addEventListener("click", function (event) {
-    var user = document.getElementById("userInput").value;
-    var message = document.getElementById("messageInput").value;
+    var user = document.getElementById("userInput").value.trim();
+    var message = document.getElementById("messageInput").value.trim();
+
+    user = user !== "" ? user : "Anonymous";
+    message = message !== "" ? message : "The user decided not to write anything!";
+
     connection.invoke("SendMessage", user, message).catch(function (err) {
         return console.error(err.toString());
     });
+
+    document.getElementById("messageInput").value = "";
+
     event.preventDefault();
 });
+
+
