@@ -5,6 +5,7 @@ D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\libman.json
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.dll
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.runtimeconfig.json
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\SignalRChat.pdb
+D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\Azure.AI.TextAnalytics.dll
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\Azure.Core.dll
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\Azure.Identity.dll
 D:\projects\SignalRChat\SignalRChat\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.Authorization.dll

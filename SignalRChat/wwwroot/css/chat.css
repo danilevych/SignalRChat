@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFB6C1;
+    font-weight: 400;
+}
+
+#messagesList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+    #messagesList li {
+        background-color: #F0DDDF;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    #messagesList .sender {
+        font-weight: bold;
+        color: #333;
+    }
+
+    #messagesList .says {
+        font-style: italic;
+        margin-left: 5px;
+    }
+
+    #messagesList .message {
+        margin-left: 5px;
+    }
+
+.custom {
+    background-color: #F0DDDF;
+    border-color: #F0DDDF;
+}
+
+    .custom:hover {
+        background-color: #FFB6C1;
+        border-color: #FFB6C1;
+    }
+
+.form-label {
+    font-family: 'Open Sans', sans-serif;
+    color: #DB7093 !important;
+    font-weight: 500;
+}
+
+.form-control:focus {
+    border-color: #F0DDDF !important;
+    box-shadow: 0 0 0 .2rem rgba(240, 221, 223, .25) !important;
+    outline: none !important;
+}

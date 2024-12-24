@@ -18,7 +18,6 @@ namespace SignalRChat.Hubs
         public async Task SendMessage(string userName, string messageText)
         {
             await Clients.All.SendAsync("ReceiveMessage", userName, messageText);
-
             await _chatService.SaveMessage(userName, messageText);
         }
     }

@@ -4,6 +4,7 @@ using SignalRChat.Models;
 using SignalRChat.Controllers;
 using System;
 using SignalRChat.Services;
+using Microsoft.Data.SqlClient;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,8 +13,22 @@ builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
 
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Connection string not found.");
+}
+else
+{
+    Console.WriteLine($"Connection string: {connectionString}");
+}
+
+//builder.Logging.AddApplicationInsights();
+
 builder.Services.AddDbContext<ChatMessageDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer((connectionString)));
+
 
 builder.Services.AddScoped<ChatService>();
 
@@ -46,6 +61,5 @@ app.MapGet("/api/messages", async (ChatMessageDbContext context) =>
 {
     return await context.ChatMessages.ToListAsync();
 });
-
 
 app.Run();

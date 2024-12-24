@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y+xQTUpuB91BP6KOmPpKIzP6Xnj3bncROXphu1Mu5IQ=",
+  "Hash": "sveBL8QFnxGsmzSGJToYyO/X0BiyXTJwTSIdLausN08=",
   "Source": "SignalRChat",
   "BasePath": "_content/SignalRChat",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\css\\chat.css",
+      "SourceId": "SignalRChat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\",
+      "BasePath": "_content/SignalRChat",
+      "RelativePath": "css/chat.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\chat.css"
+    },
     {
       "Identity": "D:\\projects\\SignalRChat\\SignalRChat\\wwwroot\\js\\chat.js",
       "SourceId": "SignalRChat",
